@@ -7,8 +7,18 @@ export const styles = StyleSheet.create({
 		backgroundColor: '#fff',
 		alignItems: 'center',
 		margin: '2%',
+
 	},
 	// AddForm Styles
+	otherContainer: {
+		flex: 1,
+		backgroundColor: '#fff',
+		alignItems: 'center',
+		margin: '2%',
+		border: '3px double black',
+		padding: 50,
+	},
+
 	addContainer: {
 		flexDirection: 'row',
 		justifyContent: 'space-between',
@@ -20,5 +30,15 @@ export const styles = StyleSheet.create({
 		padding: '3%',
 		margin: '2%',
 	},
+	listItem: {
+		padding: 10,
+		backgroundColor: '#ccc',
+		border: '1px solid black',
+		margin: '1%'
+	},
+
+
+
+
 
 })
